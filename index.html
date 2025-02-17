@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Discover Your Unique Personality Insights</title>
+
+  <!-- Responsive Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    Example: Minimal custom CSS for the pink/brown palette 
+    Inspired by the screenshot you shared 
+  -->
+  <style>
+    /* 
+      SAMPLE COLOR PALETTE:
+      - Background: #F3E6E0 (light pinkish)
+      - Header/Banner: #CEB3AC (dusty-rose)
+      - Headings: #56302C (dark brownish-pink)
+      - Text: #4A3634 (soft dark brown)
+      - Accent/Borders: #E6D7D2
+      - Buttons/Links: #C79688
+    */
+
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #F3E6E0;
+      color: #4A3634;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #C79688;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* HEADER / NAVBAR */
+    header.navbar {
+      background-color: #CEB3AC;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .navbar-header .logo img {
+      max-width: 150px;
+      height: auto;
+    }
+    .navbar-toggle {
+      background-color: #C79688;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+
+    /* HERO / BANNER */
+    .page-test-header-ribbon {
+      background-color: #CEB3AC;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #fff;
+    }
+    .page-test-header-ribbon h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .page-test-header-ribbon h3 {
+      font-size: 1.2rem;
+      color: #fefefe;
+    }
+
+    /* MAIN CONTAINER */
+    .main-container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 2rem auto;
+      background-color: #fff;
+      border: 1px solid #E6D7D2;
+      border-radius: 5px;
+      padding: 1.5rem;
+    }
+    h2, h3, h4, h5 {
+      color: #56302C;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    /* QUIZ FORM STYLES */
+    form.webform-client-form {
+      margin-top: 1rem;
+    }
+    .question-header {
+      background-color: #F3E6E0;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #E6D7D2;
+    }
+    .question-header strong {
+      color: #56302C;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label.control-label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    .form-radios .form-type-radio {
+      margin: 0.2rem 0;
+    }
+
+    /* PROGRESS BAR */
+    .webform-progressbar {
+      margin-top: 1rem;
+      background-color: #E6D7D2;
+      border-radius: 5px;
+      padding: 0.5rem;
+    }
+    .webform-progressbar-number {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #56302C;
+    }
+    .webform-progressbar-outer {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .webform-progressbar-page {
+      flex: 1;
+      text-align: center;
+      padding: 0.3rem;
+      border: 1px solid #C79688;
+      border-radius: 3px;
+      background-color: #F3E6E0;
+      color: #4A3634;
+    }
+    .webform-progressbar-page.current {
+      background-color: #C79688;
+      color: #fff;
+      border-color: #C79688;
+    }
+
+    /* FORM BUTTONS */
+    .form-actions {
+      margin-top: 1.5rem;
+    }
+    .form-actions button {
+      background-color: #C79688;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .form-actions button:hover {
+      background-color: #b58175;
+    }
+
+    /* FOOTER */
+    footer.footer {
+      background-color: #CEB3AC;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    footer a {
+      color: #fff;
+    }
+    .social-links img {
+      width: 24px;
+      height: auto;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+
+<body role="document" class="html not-front not-logged-in no-sidebars page-node page-node- page-node-18720 node-type-personality-test page-node-view">
+
+  <!-- HEADER / NAVBAR -->
+  <header id="navbar" role="banner" class="navbar navbar-default">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle">
+        <div class="navbar-toggle-text">Menu</div>
+      </button>
+      <a class="logo navbar-btn" href="/" title="Home">
+        <img 
+          src="https://via.placeholder.com/150x50.png?text=LOGO" 
+          alt="Home" />
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO / BANNER -->
+  <div class="page-test-header-ribbon">
+    <h1>The TypeFinder® Personality Test</h1>
+    <h3>Discover Your Unique Personality Insights</h3>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-container container">
+    <h2>Welcome to the Quiz</h2>
+    <p>
+      This is a multi-step quiz example with a new color palette. 
+      The form below illustrates how you can keep your questions and 
+      multi-step functionality while updating the design.
+    </p>
+
+    <!-- SAMPLE MULTI-STEP FORM -->
+    <form 
+      class="webform-client-form webform-client-form-18720 truity-custom-block-form" 
+      action="/test/type-finder-personality-test-new" 
+      method="post" 
+      id="webform-client-form-18720"
+      accept-charset="UTF-8"
+    >
+      <!-- Example question group (page 1) -->
+      <div class="question-header">
+        <strong>From each pair, choose the phrase that describes you best.</strong>
+      </div>
+
+      <div class="form-group webform-component webform-component-radios webform-component--j1-5">
+        <label class="control-label" for="edit-submitted-j1-5">
+          I am often disorganized
+          <span class="form-required" title="This field is required.">*</span>
+        </label>
+        <div id="edit-submitted-j1-5" class="form-radios">
+          <div class="form-item form-item-submitted-j1-5 form-type-radio radio">
+            <label for="edit-submitted-j1-5-1">
+              <input required type="radio" id="edit-submitted-j1-5-1" name="submitted[j1_5]" value="1" class="form-radio" />
+              Strongly Disagree
+            </label>
+          </div>
+          <div class="form-item form-item-submitted-j1-5 form-type-radio radio">
+            <label for="edit-submitted-j1-5-2">
+              <input required type="radio" id="edit-submitted-j1-5-2" name="submitted[j1_5]" value="2" class="form-radio" />
+              Disagree
+            </label>
+          </div>
+          <div class="form-item form-item-submitted-j1-5 form-type-radio radio">
+            <label for="edit-submitted-j1-5-3">
+              <input required type="radio" id="edit-submitted-j1-5-3" name="submitted[j1_5]" value="3" class="form-radio" />
+              Neutral
+            </label>
+          </div>
+          <div class="form-item form-item-submitted-j1-5 form-type-radio radio">
+            <label for="edit-submitted-j1-5-4">
+              <input required type="radio" id="edit-submitted-j1-5-4" name="submitted[j1_5]" value="4" class="form-radio" />
+              Agree
+            </label>
+          </div>
+          <div class="form-item form-item-submitted-j1-5 form-type-radio radio">
+            <label for="edit-submitted-j1-5-5">
+              <input required type="radio" id="edit-submitted-j1-5-5" name="submitted[j1_5]" value="5" class="form-radio" />
+              Strongly Agree
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- (You would repeat similar blocks for other questions) -->
+
+      <!-- HIDDEN FIELDS for multi-step logic (Drupal) -->
+      <input type="hidden" name="details[sid]" />
+      <input type="hidden" name="details[page_num]" value="1" />
+      <input type="hidden" name="details[page_count]" value="8" />
+      <input type="hidden" name="details[finished]" value="0" />
+      <input type="hidden" name="form_build_id" value="form-EXAMPLE" />
+      <input type="hidden" name="form_id" value="webform_client_form_18720" />
+
+      <!-- PROGRESS BAR -->
+      <div class="webform-progressbar">
+        <div class="webform-progressbar-number">
+          Step 1 of 8
+        </div>
+        <div class="webform-progressbar-outer">
+          <span class="webform-progressbar-page current">
+            <span class="webform-progressbar-page-number">1</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">2</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">3</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">4</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">5</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">6</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">7</span>
+          </span>
+          <span class="webform-progressbar-page">
+            <span class="webform-progressbar-page-number">8</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- FORM ACTIONS -->
+      <div class="form-actions">
+        <button class="webform-next" type="submit" name="op" value="Next Step &gt;">
+          Next Step >
+        </button>
+      </div>
+    </form>
+    <!-- END FORM -->
+
+  </div>
+  <!-- END .main-container -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Copyright © 2025, 
+      <a href="#">Your Website</a>. All rights reserved.
+    </p>
+    <div class="social-links">
+      <a href="#"><img src="https://via.placeholder.com/24?text=FB" alt="Facebook"></a>
+      <a href="#"><img src="https://via.placeholder.com/24?text=TW" alt="Twitter"></a>
+      <a href="#"><img src="https://via.placeholder.com/24?text=IG" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <!-- 
+    If your site relies on Drupal's scripts, 
+    you would typically include them here. 
+    For example:
+    <script src="misc/drupal.js"></script>
+    <script src="sites/all/modules/..."></script>
+    etc.
+  -->
+</body>
+</html>
